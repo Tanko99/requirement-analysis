@@ -23,7 +23,7 @@ Requirement analysis is important because of the following reasons;
 -  Ensures early stakeholder involvement to avoid confusion later.
 -  May include studying existing systems or documents for reference.
 
-##🕵️ 2. Requirement Elicitation
+## 🕵️ 2. Requirement Elicitation
 Focuses on extracting deep, detailed, and hidden requirements.
 Uses techniques like:
 - Workshops
@@ -34,7 +34,7 @@ Uses techniques like:
 - Often requires conflict resolution between contradictory stakeholder inputs.
 - Helps refine vague ideas into actionable requirements.
 
-##📄 3. Requirement Documentation
+## 📄 3. Requirement Documentation
 Involves formally recording all gathered and elicited requirements.
 Usually compiled into a Software Requirements Specification (SRS) document.
 Types of documentation:
@@ -44,25 +44,25 @@ Types of documentation:
 - Creates a reference point for developers, testers, and clients.
 - Should be clear, unambiguous, complete, and consistent.
 
-##🔍 4. Requirement Analysis and Modeling
+## 🔍 4. Requirement Analysis and Modeling
 Involves breaking down and understanding the structure, priority, and feasibility of requirements.Activities include:
 - Identifying dependencies and conflicts
 - Prioritizing requirements
 - Checking for completeness and clarity
-- 
-** Often uses models and diagrams:**
+  
+**Often uses models and diagrams:**
 - Use case diagrams
 - Data flow diagrams (DFD)
 - Entity-relationship diagrams (ERD)
 - Translates requirements into a format suitable for system design and architecture.
 
-##✅ 5. Requirement Validation
+## ✅ 5. Requirement Validation
 Ensures that requirements are:
 - Correct – meet business needs
 - Complete – cover all functionalities
 - Consistent – free from contradictions
 - Feasible – technically and financially viable
-- 
+  
 **Techniques used:**
 - Reviews (peer, walkthroughs, inspections)
 - Prototypes and mockups
