@@ -6,12 +6,33 @@ Requirement analysis refers to a phase in software development life-cycle (SDLC)
 
 ## Why is Requirement Analysis Important?
 Requirement analysis is important because of the following reasons;
-- It enhances clarity and understamdimg within the team ensuring the goals of the stakeholders are achieved.
-- It prevents scope creep which are uncontrolled changes in requirements.
-- Requirement minimizes and enhance time efficiency by ensuring  that only needed features are built.
-- Test cases and quality assurance processes are derived from a well-documented requirement analysis ensuring verifcation and validtion of each feature for high-quality produt.
-- Makes it easier to track and manage changes in requirement.
-- Tracebility: meaning that  it provides a traceble link between requirements and implentation.
+## ✅ 1. Ensures Clarity and Shared Understanding
+- Requirement analysis helps developers, clients, and stakeholders understand and agree on what the system should do.
+- It avoids miscommunication and ensures that all parties are on the same page before development begins.
+## 💡 Example:
+Without clear analysis, developers might build a single-room booking feature, while the client wanted multi-room bookings per transaction.
+
+## ✅ 2. Reduces Cost and Rework
+- Identifying errors or unclear requirements early prevents expensive fixes during development or after launch.
+- Helps prioritize features, reducing waste of resources on unnecessary functionality.
+## 💡 Example:
+If the system is built without considering the cancellation policy logic, fixing it later might require code changes, database updates, and UI redesign.
+
+## ✅ 3. Supports Better Design and Planning
+- With well-analyzed requirements, architects and developers can make informed decisions about system architecture, technology stack, and timelines.
+- Leads to a more efficient and realistic project plan.
+## 💡 Example:
+- Knowing that the booking system needs to support real-time availability influences the decision to use technologies like WebSockets or Firebase for live updates
+- Would you like these formatted into a one-page study sheet or visual summary?
+
+
+
+
+
+
+
+
+
 ---
 
 ## Key Activities in Requirement Analysis
@@ -69,5 +90,62 @@ Ensures that requirements are:
 - Client sign-off meetings
 - Helps eliminate errors early, reducing cost and rework in later stages.
 - Leads to final approval before the design phase begins.
+---
+## Types of Requirements
+## 1. ✅ Functional Requirements
+## Definition:
+Functional requirements describe the specific behaviors, functionalities, or operations a system must perform. These are features or services the software should offer to meet user needs.
+
+## Examples (Booking Management System):
+- Users can create, update, and cancel bookings.
+- The system must allow payment via credit card, PayPal, or wallet.
+- Admin can view, filter, and manage all bookings.
+- System should send email confirmations after each successful booking.
+- Users can search for available rooms or services by price, location and availability..
+
+## 2. ⚙️ Non-Functional Requirements
+## Definition:
+Non-functional requirements define the quality attributes of the system, such as performance, usability, reliability, security, and scalability. They do not describe specific behaviors, but rather how the system performs under various conditions.
+
+## Examples (Booking Management System):
+- The system should be able to handle up to 10,000 concurrent users.
+- Response time for any page should be less than 2 seconds.
+- The system must be available 24/7 with 99.9% uptime.
+- All user data must be encrypted using AES-256 encryption.
+- The interface should be mobile-responsive and accessible (WCAG 2.1 compliance).
+---
+## Use Case Diagrams
+A Use Case Diagram is a type of UML (Unified Modeling Language) diagram that visually represents the interactions between users (actors) and a system. It shows what the system should do, not how it does it.
+
+🧩 Key Components:
+Actors: External entities (people, systems) that interact with the system (e.g., Customer, Admin).
+
+Use Cases: Functionalities or services the system offers (e.g., Book Room, Cancel Booking).
+
+System Boundary: A box that defines what is inside (system features) and outside (actors).
+
+Relationships: Connections between actors and use cases (e.g., associations, includes, extends).
+
+## ✅ Benefits of Use Case Diagrams
+##1. 👥 Improves Stakeholder Communication
+- Simple visual format that's easy for both technical and non-technical stakeholders to understand.
+- Helps stakeholders see what the system will do from a user perspective.
+
+## 2. 🗂️ Clarifies System Scope
+- Defines the boundaries of the system.
+- Clearly shows which functionalities are part of the system and which are outside its scope.
+
+## 3. 🛠️ Assists in Requirement Gathering
+- Encourages thinking from a user’s point of view.
+- Helps identify missing or unclear requirements during early development stages.
+
+## 4. 📐 Lays the Foundation for Design and Testing
+- Forms the basis for creating detailed use case specifications, scenarios, and test cases.
+- Ensures coverage of all user interactions in the system.
+
+## 5. 🔄 Supports Reusability and Modularity
+- Use cases like "Process Payment" can be reused in multiple diagrams (e.g., hotel booking, ticket booking).
+- Promotes modular thinking, which aids in software design and maintenance.
+
 
 ---
