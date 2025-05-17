@@ -150,6 +150,7 @@ Relationships: Connections between actors and use cases (e.g., associations, inc
 ![Use Case Diagram](alx-booking-uc.png)
 
 ---
+
 ## Acceptance Criteria
 ## Importance of Acceptance Criteria in Requirement Analysis
 Acceptance criteria are essential in requirement analysis as they define the specific conditions that a product or feature must satisfy to be accepted by the end user, customer, or stakeholders. These criteria serve as a bridge between business requirements and technical implementation, ensuring clear communication and shared understanding among project stakeholders, business analysts, developers, and QA teams.
