@@ -127,7 +127,7 @@ System Boundary: A box that defines what is inside (system features) and outside
 Relationships: Connections between actors and use cases (e.g., associations, includes, extends).
 
 ## ✅ Benefits of Use Case Diagrams
-##1. 👥 Improves Stakeholder Communication
+## 1. 👥 Improves Stakeholder Communication
 - Simple visual format that's easy for both technical and non-technical stakeholders to understand.
 - Helps stakeholders see what the system will do from a user perspective.
 
