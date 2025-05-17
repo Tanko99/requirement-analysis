@@ -118,7 +118,7 @@ Non-functional requirements define the quality attributes of the system, such as
 A Use Case Diagram is a type of UML (Unified Modeling Language) diagram that visually represents the interactions between users (actors) and a system. It shows what the system should do, not how it does it.
 
 🧩 Key Components:
-Actors: External entities (people, systems) that interact with the system (e.g., Customer, Admin).
+Actors: External entities (people, systems) that interact with the system (e.g., Guest, Host).
 
 Use Cases: Functionalities or services the system offers (e.g., Book Room, Cancel Booking).
 
@@ -146,6 +146,42 @@ Relationships: Connections between actors and use cases (e.g., associations, inc
 ## 5. 🔄 Supports Reusability and Modularity
 - Use cases like "Process Payment" can be reused in multiple diagrams (e.g., hotel booking, ticket booking).
 - Promotes modular thinking, which aids in software design and maintenance.
+
+---
+## Acceptance Criteria
+## Importance of Acceptance Criteria in Requirement Analysis
+Acceptance criteria are essential in requirement analysis as they define the specific conditions that a product or feature must satisfy to be accepted by the end user, customer, or stakeholders. These criteria serve as a bridge between business requirements and technical implementation, ensuring clear communication and shared understanding among project stakeholders, business analysts, developers, and QA teams.
+
+## Key Benefits of Acceptance Criteria:
+- Clarity of Requirements: They eliminate ambiguity by providing detailed, testable conditions that must be met.
+- Alignment of Expectations: Help ensure that developers and stakeholders share a common understanding of what needs to be built.
+- Facilitates Testing: They provide a basis for test case creation, aiding in verifying that the feature works as intended.
+- Supports Agile Development: In Agile methodologies, acceptance criteria are often written in user stories to support iterative development and delivery.
+- Scope Management: Clearly defined criteria help avoid scope creep by outlining exactly what is included in a feature.
+- Improved Communication: Serve as a reference for developers, testers, and product owners, improving cross-functional collaboration.
+
+## Example: Acceptance Criteria for the Checkout Feature in a Booking Management System
+## Feature: Checkout functionality for finalizing hotel bookings.
+
+## User Story:
+As a user, I want to be able to complete my hotel booking through a checkout process so that I can confirm and pay for my reservation securely.
+
+## Acceptance Criteria:
+- The checkout page must display booking summary including hotel name, room type, check-in and check-out dates, and total cost.
+- The user must be able to input payment details (credit/debit card, PayPal, etc.).
+- The system must validate payment information before proceeding.
+- Upon successful payment, the user must receive a confirmation message with booking details and a unique booking reference number.
+- An email with the booking confirmation must be sent to the user’s registered email address.
+- If the payment fails, the user must receive an appropriate error message and be prompted to retry or use a different payment method.
+- The checkout process must be accessible on both desktop and mobile devices.
+
+
+
+
+
+
+
+
 
 
 ---
