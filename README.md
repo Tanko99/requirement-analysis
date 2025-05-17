@@ -148,6 +148,7 @@ Relationships: Connections between actors and use cases (e.g., associations, inc
 - Promotes modular thinking, which aids in software design and maintenance.
 
 ![Use Case Diagram](alx-booking-uc.png)
+
 ---
 ## Acceptance Criteria
 ## Importance of Acceptance Criteria in Requirement Analysis
